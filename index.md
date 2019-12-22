@@ -12,8 +12,8 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Entry Level Software Engineer
-## Header 2
-### Header 3
+## Polished work for Computer Science Capstone
+
 
 - Bulleted
 - List
