@@ -22,7 +22,7 @@ public class App {
 
 	public static void main(String[] args) {
 		//Created for testing purposes password is "Open"
-		Employee employee = new Employee("Mike", "1111");
+		Employee employee = new Employee("Chelsea", "1111");
 		//Read console input
 		Scanner scanner = new Scanner(System.in);
 		scanner.useDelimiter(System.getProperty("line.separator"));
