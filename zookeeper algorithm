@@ -1,0 +1,64 @@
+method main () {
+
+1.	INITIALIZE options //ASK the user to enter one of the options
+a.	To monitor an animal
+b.	To monitor a habitat
+c.	Exit
+
+2.	IF zookeeper = monitorAnimal 
+Print "List of animal options"
+
+3.	IF zookeeper = monitorHabitat
+Print “List of habitat options"
+
+4.	ELSE zookeeper = exit
+END
+
+ENDIF
+
+5.	WHILE zookeeper = monitorAnimal
+ASK which animal 
+		DETAILS on lions
+		DETAILS on tigers
+		DETAILS on bears
+		DETAILS on giraffes
+// as soon as the zookeeper picks an animal the following appears
+ENDWHILE
+
+6.	REPEAT  // each animal chosen
+		PRINT “Animal” 
+		PRINT “Name: “
+		PRINT “Age: “
+		PRINT *****”Health concerns: “
+		PRINT “Feeding schedule: “
+
+UNTIL condition
+
+7.	WHILE zookeeper = monitorHabitat
+ASK which habitat 
+		DETAILS on penguin habitat
+		DETAILS on bird house
+		DETAILS on aquarium
+// as soon as the zookeeper picks a habitat the following appears
+ENDWHILE
+
+8.	REPEAT  // each habitat chosen
+		PRINT “Habitat: ”
+		PRINT “Temperature: ”
+		PRINT *****”Food source: ”
+		PRINT “Cleanliness: ”
+
+UNTIL condition
+9.	IF foodSource!= normalRange
+***** Print “Out of the normal range” // with new line
+
+10.	IF healthConcerns != normalRange
+***** Print “Out of the normal range” // with new line
+
+11.	ELSE 
+END
+
+ENDIF
+
+RETURN
+}
