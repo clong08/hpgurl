@@ -15,7 +15,7 @@ Syntax highlighted code block
 ## Polished work for Computer Science Capstone
 
 1. Software Testing, Automation & Quality Assuarance
-*MedApp.java
+* MedApp.java
 
 
 
